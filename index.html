@@ -4,67 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sinau Aksara Jawa</title>
-    <style>
-        :root {
-            --primary: #5d4037;
-            --accent: #d7ccc8;
-        }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            padding: 2rem;
-            background: var(--primary);
-            color: white;
-            border-radius: 10px;
-            margin-bottom: 20px;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-        }
-        .grid-aksara {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-            gap: 15px;
-        }
-        .card {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            transition: transform 0.2s;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            border: 2px solid var(--primary);
-        }
-        .aksara {
-            font-size: 2.5rem;
-            display: block;
-            margin-bottom: 5px;
-            color: var(--primary);
-        }
-        .latin {
-            font-weight: bold;
-            font-size: 1.1rem;
-            color: #666;
-        }
-        section {
-            margin-bottom: 40px;
-        }
-        h2 {
-            border-bottom: 2px solid var(--primary);
-            padding-bottom: 10px;
-            color: var(--primary);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -86,36 +26,7 @@
     </section>
 </div>
 
-<script>
-    // Data Aksara
-    const carakan = [
-        {jawa: 'a', latin: 'Ha'}, {jawa: 'ꦯ', latin: 'Na'}, {jawa: 'ꦕ', latin: 'Ca'}, {jawa: 'ꦗ', latin: 'Ra'}, {jawa: 'ꦏ', latin: 'Ka'},
-        {jawa: 'ꦢ', latin: 'Da'}, {jawa: 'ꦲ', latin: 'Ta'}, {jawa: 'ꦱ', latin: 'Sa'}, {jawa: 'ꦮ', latin: 'Wa'}, {jawa: 'ꦭ', latin: 'La'},
-        {jawa: 'ꦥ', latin: 'Pa'}, {jawa: 'ꦝ', latin: 'Dha'}, {jawa: 'ꦗ', latin: 'Ja'}, {jawa: 'ꦪ', latin: 'Ya'}, {jawa: 'ꦜ', latin: 'Nya'},
-        {jawa: 'ꦩ', latin: 'Ma'}, {jawa: 'ꦒ', latin: 'Ga'}, {jawa: 'ba', latin: 'Ba'}, {jawa: 'ꦛ', latin: 'Tha'}, {jawa: 'ꦔ', latin: 'Nga'}
-    ];
-
-    const sandhangan = [
-        {jawa: 'ꦶ', latin: 'Wulu (i)'}, {jawa: 'ꦸ', latin: 'Suku (u)'},
-        {jawa: 'ꦺ', latin: 'Taling (é)'}, {jawa: 'ꦺꦴ', latin: 'Taling Tarung (o)'},
-        {jawa: 'ꦼ', latin: 'Pepet (e)'}
-    ];
-
-    function render(data, elementId) {
-        const container = document.getElementById(elementId);
-        data.forEach(item => {
-            container.innerHTML += `
-                <div class="card">
-                    <span class="aksara">${item.jawa}</span>
-                    <span class="latin">${item.latin}</span>
-                </div>
-            `;
-        });
-    }
-
-    render(carakan, 'container-carakan');
-    render(sandhangan, 'container-sandhangan');
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
