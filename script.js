@@ -1,8 +1,8 @@
 // Data Aksara
 const carakan = [
-    {jawa: 'ꦲ', latin: 'Ha'}, {jawa: 'ꦯ', latin: 'Na'}, {jawa: 'ꦕ', latin: 'Ca'}, {jawa: 'ꦗ', latin: 'Ra'}, {jawa: 'ꦏ', latin: 'Ka'},
-    {jawa: 'ꦢ', latin: 'Da'}, {jawa: 'ꦲ', latin: 'Ta'}, {jawa: 'ꦱ', latin: 'Sa'}, {jawa: 'ꦮ', latin: 'Wa'}, {jawa: 'ꦭ', latin: 'La'},
-    {jawa: 'ꦥ', latin: 'Pa'}, {jawa: 'ꦝ', latin: 'Dha'}, {jawa: 'ꦗ', latin: 'Ja'}, {jawa: 'ꦪ', latin: 'Ya'}, {jawa: 'ꦜ', latin: 'Nya'},
+    {jawa: 'ꦲ', latin: 'Ha'}, {jawa: 'ꦤ', latin: 'Na'}, {jawa: 'ꦕ', latin: 'Ca'}, {jawa: 'ꦫ', latin: 'Ra'}, {jawa: 'ꦏ', latin: 'Ka'},
+    {jawa: 'ꦣ', latin: 'Da'}, {jawa: 'ꦠ', latin: 'Ta'}, {jawa: 'ꦱ', latin: 'Sa'}, {jawa: 'ꦮ', latin: 'Wa'}, {jawa: 'ꦭ', latin: 'La'},
+    {jawa: 'ꦥ', latin: 'Pa'}, {jawa: 'ꦣ', latin: 'Dha'}, {jawa: 'ꦗ', latin: 'Ja'}, {jawa: 'ꦪ', latin: 'Ya'}, {jawa: 'ꦚ', latin: 'Nya'},
     {jawa: 'ꦩ', latin: 'Ma'}, {jawa: 'ꦒ', latin: 'Ga'}, {jawa: 'ꦧ', latin: 'Ba'}, {jawa: 'ꦛ', latin: 'Tha'}, {jawa: 'ꦔ', latin: 'Nga'}
 ];
 
